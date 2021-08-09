@@ -18,7 +18,7 @@ app.get('/', (req,res)=>{
     res.send('hello world !!')
 } )
 
-// when name is empty its will show 500 error automatically 
+// when name query not string or not found its will show 500 error automatically 
 app.get('/person', validator , (req,res )=>{
     res.json({
         name: 'Sultan'

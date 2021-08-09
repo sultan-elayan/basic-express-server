@@ -6,6 +6,6 @@ module.exports = (req, res, next) => {
     
     next();
   } else {
-    res.status(500).json({ error: '500 server error from middleware' });
+    res.status(500).json({ error: 'ERROR 500 server error ' });
   }
 };
