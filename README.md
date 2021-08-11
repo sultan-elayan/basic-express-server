@@ -12,7 +12,7 @@
 ## deployment links
 
 - sultan-basic-express-server --> https://sultan-basic-express-server.herokuapp.com/ 
-- PR --> https://github.com/sultan-elayan/basic-express-server/pull/1 
+- PR --> https://github.com/sultan-elayan/basic-express-server/pull/3 
 - repo action --> https://github.com/sultan-elayan/basic-express-server/runs/3280585811 
 
 ## must re-read 
