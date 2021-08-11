@@ -19,3 +19,7 @@
 
 1. mocking 
 2. making validator
+
+## MUL 
+
+![](lab-02.jpeg)

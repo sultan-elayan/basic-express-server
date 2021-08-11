@@ -20,10 +20,14 @@ app.get('/', (req,res)=>{
 
 // when name query not string or not found its will show 500 error automatically 
 app.get('/person', validator , (req,res )=>{
-    res.json({
-        name: 'Sultan'
-    })
+    const name = req.query.name;
+    if (name) {
+        res.json({name})
+    } else {
+        res.status(500).send('Something Wrong !');
+    }
 })
+
 
 app.use('*', notFoundHandler);
 app.use(errorHandler);
